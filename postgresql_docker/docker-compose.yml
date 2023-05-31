@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+  pg-insa:
+    container_name: pg-insa
+    hostname: pg-insa
+    image: postgres:12
+    command: postgres -c 'max_connections=200'
+    restart: always
+#acces port 5432 outside for pg-insa
+    ports:
+      - "5432:5432/tcp"
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=bem_etudiants
+      #POSTGRES_HOST_AUTH_METHOD: trust
+    # ne pas oublier de parameter le volume de postgresql sur disque lvm
+    volumes:
+      - "./pgdata:/var/lib/postgresql/data"

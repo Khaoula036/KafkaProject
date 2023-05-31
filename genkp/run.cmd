@@ -1,0 +1,1 @@
+java -jar .\target\genkp-0.0.1.jar --spring.config.location=file:genkp.properties

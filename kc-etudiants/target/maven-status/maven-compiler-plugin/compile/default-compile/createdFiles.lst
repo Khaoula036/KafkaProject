@@ -1,0 +1,7 @@
+com\insa\kc\etudiants\controller\ConsumerController.class
+com\insa\kc\etudiants\KcEtudiantsApplication.class
+com\insa\kc\etudiants\SwaggerConfiguration.class
+com\insa\kc\etudiants\entity\Etudiants.class
+com\insa\kc\etudiants\service\EtudiantsService.class
+com\insa\kc\etudiants\service\IntegrationService.class
+com\insa\kc\etudiants\repository\EtudiantsRepository.class

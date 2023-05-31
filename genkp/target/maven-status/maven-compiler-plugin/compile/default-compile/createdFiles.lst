@@ -1,0 +1,11 @@
+insa\fr\exceptions\ServiceNotFoundException.class
+insa\fr\exceptions\NotAllowedOperationException.class
+insa\fr\exceptions\ApiError.class
+insa\fr\exceptions\ResourceNotFoundException.class
+insa\fr\exceptions\GlobalExceptionController.class
+insa\fr\KP_APP.class
+insa\fr\controllers\KP_Controller.class
+insa\fr\entity\CustomErrorResponse.class
+insa\fr\SwaggerConfiguration.class
+insa\fr\exceptions\GlobalExceptionController$ERROR_CODE.class
+insa\fr\engine\Producer.class

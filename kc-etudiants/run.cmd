@@ -1,0 +1,1 @@
+java -jar .\target\kc-etudiants-0.1.jar --spring.config.location=file:kc-etudiants.properties
