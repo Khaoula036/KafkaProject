@@ -34,5 +34,8 @@ IF ["%KAFKA_HEAP_OPTS%"] EQU [""] (
         set KAFKA_HEAP_OPTS=-Xmx1G -Xms1G
     )
 )
+
+set KAFKA_OPTS=-Djava.security.auth.login.config=C:/kafka/config/kafka_server_jaas.conf
+
 "%~dp0kafka-run-class.bat" kafka.Kafka %*
 EndLocal
